@@ -6,36 +6,74 @@
 
 Pedalcity is a bicycle sharing app designed to improve urban mobility. It allows people to access bicycle rental services directly from their phones. Users can locate bicycle points, choose bicycles from various options like mtb, cargo, geared, electric and Rent rides in real-time seamlessly.
 
-<p><b> Download Pedalcity App - Pre-release apk 👉</b> https://github.com/ayushpadlekar/Pedalcity_Bicycle-Rental-App/releases/tag/v0.0.1-beta </p>
+<p><b> Download Pedalcity App - Pre-release APK 👉</b> https://github.com/ayushpadlekar/Pedalcity_Bicycle-Rental-App/releases/tag/v0.0.1-beta </p>
 
-## Screenshots
+<p><b> Read the Project Report Documentation 👉</b> https://drive.google.com/file/d/13twZB3d7uodcgboyUEBO2sZjBUnu2GJ9/view?usp=sharing </p>
+
+</br>
+
+## Screenshots 📸
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="Imgs/Pedalcity Home.png" width="200"/>
+  <img src="Imgs/Pedalcity Home.png" width="185"/>
   
-  <img src="Imgs/Pedalcity QR code.png" width="200"/>
+  <img src="Imgs/Pedalcity QR code.png" width="185"/>
   
-  <img src="Imgs/Pedalcity Wallet.png" width="200"/>
+  <img src="Imgs/Pedalcity Wallet.png" width="185"/>
   
-  <img src="Imgs/Pedalcity Profile.png" width="200"/>
+  <img src="Imgs/Pedalcity Profile.png" width="185"/>
 </div>
 
-## Features
+</br>
 
-• Designed UI/UX with Figma, including logos, icons and animations. Implemented splash screens, onboardings, and bottom navigation bar to navigate between various fragments smoothly.
+## Features 💡
 
-• Implemented Google Sign-In with Firebase Authentication for secure and fast user login with their details.
+1. **User Interface**
+    - Thematic Colors, Fonts & Backgrounds
+    - Splash Screen Animations & Onboarding Screens
+    - Bottom Navigation Bar to navigate between various fragments smoothly
 
-• Integrated Google Maps to display bicycle points. Displayed live weather information using Open Weather API.
+2. **User Authentication and Details**
+    - Google Sign-In with Firebase Authentication for secure and fast user login
+    - Getting details of user like - Name, Phone, Birth date, Photo and storing it in Firebase Database
 
-• Developed a rental flow with options to scan QR code, enter bicycle number or choose from multiple bicycles options.
+3. **Map & Nearby Bicycle Points**
+    - Integrated Google Map with Satellite view and GPS locations
+    - Added custom markers on map as Bicycle Points
+    - Info Window showing information of each bicycle point (showed on clicking any marker)
+    - 'Get Directions' Button redirecting to Gmaps app showing route from user location to Bicycle point
 
-• Managed bicycle availability and rental initiation. Enabled Real-Time ride tracking with Chronometer timer for duration, live amount calculation, and ride details. Users can end ride, see ride summary and give feedback.
+4. **Current Weather Info**
+    - Displayed live weather information in a small view on the top right corner
+    - Current Temperature, current condition and it's weather icon is showed
 
-• Managed Wallet features for balance, deposits, and transactions with Firebase. Enabled profile picture uploads and user details management, allowing users to edit and save their personal details.
+5. **Bicycle Options**
+    - Sponsored Bicycles category with options from many different bicyle brands
+    - Multiple bicycle types like MTB, Geared, Electric, Road or Cargo
+    - Card Flip Views to show all the information of each bicycle
 
+6. **Rent A Bicycle**
+    - Bottom Sheet with 3 options - Scan QR Code, Enter Bicycle Number & Choose Bicycle Options
+    - Bicycle Unlocks and Ride starts only when all the permissions are ON, especially bluetooth
+    - The Rental details and bicycle Status is then updated in firebase database
 
-## Utilized Technologies 🔧
+7. **Ride Tracking & Updates**
+    - Real-Time ride tracking with Chronometer timer for duration
+    - World Time Api for syncing time irrespective of user's device time
+    - Live Amount updates on calculation based on ride duration and bicycle rate per min
+    - Ending ride updates rental details like start-time, end-time, duration, amount and wallet balance in Firebase
+
+7. **Wallet**
+    - Simulated Wallet features with Firebase
+    - Add or withdraw money in wallet balance or pay Security deposit
+    - Show all transactions with timestamp and details
+
+</br>
+
+## Demo 📲⬇️
+</br>
+
+## Utilized Technologies ⚛
  - **Programming:** XML, Java & Kotlin
 
  - **Frameworks/Libraries:**
