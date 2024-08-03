@@ -6,22 +6,24 @@
 
 Pedalcity is a bicycle sharing app designed to improve urban mobility. It allows people to access bicycle rental services directly from their phones. Users can locate bicycle points, choose bicycles from various options like mtb, cargo, geared, electric and Rent rides in real-time seamlessly.
 
-<p><b> Download Pedalcity App - Pre-release APK 👉</b> https://github.com/ayushpadlekar/Pedalcity_Bicycle-Rental-App/releases/tag/v0.0.1-beta </p>
+<p><b> Download Pedalcity App - Pre-release APK ⬇️</b> </br>
+    https://github.com/ayushpadlekar/Pedalcity_Bicycle-Rental-App/releases/tag/v0.0.1-beta </p>
 
-<p><b> Read the Project Report Documentation 👉</b> https://drive.google.com/file/d/13twZB3d7uodcgboyUEBO2sZjBUnu2GJ9/view?usp=sharing </p>
+<p><b> Read full Project Report Documentation here ⬇️</b> </br>
+    https://drive.google.com/file/d/13twZB3d7uodcgboyUEBO2sZjBUnu2GJ9/view?usp=sharing </p>
 
 </br>
 
 ## Screenshots 📸
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="Imgs/Pedalcity Home.png" width="185"/>
+  <img src="Imgs/Pedalcity Home.png" width="175"/>
   
-  <img src="Imgs/Pedalcity QR code.png" width="185"/>
+  <img src="Imgs/Pedalcity QR code.png" width="175"/>
   
-  <img src="Imgs/Pedalcity Wallet.png" width="185"/>
+  <img src="Imgs/Pedalcity Wallet.png" width="175"/>
   
-  <img src="Imgs/Pedalcity Profile.png" width="185"/>
+  <img src="Imgs/Pedalcity Profile.png" width="175"/>
 </div>
 
 </br>
@@ -70,19 +72,21 @@ Pedalcity is a bicycle sharing app designed to improve urban mobility. It allows
 
 </br>
 
-## Demo 📲⬇️
+## Demo 📲
 </br>
 
 ## Utilized Technologies ⚛
  - **Programming:** XML, Java & Kotlin
 
- - **Frameworks/Libraries:**
-   - **OK-HTTP**: For making **REST API** calls.
-   - **Picasso**: For efficient image loading and caching.
-   - **SharedPreferences**: For storing and retrieving user's cities list.
+ - **APIs and Libraries:**
+   - [**Google Maps API**](https://developers.google.com/maps/documentation/android-sdk) : for Location, Maps, Markers, Info window & Satellite view
+   - [**Open Weather API**](https://openweathermap.org/api) : to get current weather updates in a particular area (in this app - Mumbai)
+   - [**World Time Api**](https://worldtimeapi.org) : to fetch Universal Timestamps independently
+   - [**Firebase**](https://firebase.google.com) : for Authentication, Realtime Database, Storage & Analytics
+   - [**Async-Http Client**](https://github.com/android-async-http/android-async-http) : to make asynchronous HTTP requests and handle Json responses
+   - [**Zxing**](https://github.com/zxing/zxing) : for QR code scanning with camera
+   - [**Lottie**](https://lottiefiles.com) : for Animations throughout the app
+   - [**Picasso**](https://github.com/square/picasso) : for easy Image Loading and Caching.
 
- - **Development Tools:** Figma, Lottie Animations, Android Studio.
+ - **Development Tools:** Android Studio, Figma, Github
 
- - **APIs:**
-   - [Google Maps API](https://developers.google.com/maps/documentation/android-sdk) : For Location, Maps, Markers, Info window & Satellite views.
-   - [Open Weather API](https://openweathermap.org/api) : For current weather updates in a particular area (in this, Mumbai).
